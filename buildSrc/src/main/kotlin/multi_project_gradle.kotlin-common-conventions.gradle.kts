@@ -30,6 +30,7 @@ dependencies {
 
     // Align versions of all Kotlin components
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
+    testImplementation("org.junit.jupiter:junit-jupiter:5.9.1")
 }
 
 testing {
